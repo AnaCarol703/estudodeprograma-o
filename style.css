@@ -9,6 +9,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.10)),url(fotodefundo.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 .navbar{
     width: 85%;
@@ -19,7 +20,9 @@ align-items: center;
 justify-content: space-between;
 
 }
-
+.body{
+    background-color: wheat;
+}
 .logotipo{
     width: 180px;
     cursor: pointer;
@@ -110,39 +113,49 @@ width: 100%;
 }
 button:hover{
 border: none;
-
-
 }
 
-#oqe{
-
-
-    height: 25em;
-    width: 50%;
-
-}
-body{
-    z-index: 50;
+.roda{
+background: #160d46;
+width: 100%;
+margin: 2% auto;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
 }
 
-.fundo{
-    display: flex;
-    background-color: #160d46;
+.col{
+flex-basis: 25%;
+text-align: center;
+overflow: hidden;
+position: relative;
 
 }
-
-.fundo h2{
-
-     text-align: center;
-     height: 10em;
-     margin: 0;
-     color: wheat;
-   
-
+.col img{
+width: 100%;
+cursor: pointer;
+transition: 1s;
 }
 
-.fundo p{
+.col p{
+margin: 20px 0;
+
+}
+.col:hover img{
+transform: scale(1.1);
+
+}
+.col h3{
+    color: wheat;
+}
+.col p{
 color: wheat;
-text-align: right;
-margin-left: 50px;
+
+}
+.meio{
+text-align: center;
+height: 100px;
+color: #160d46;
+
+
 }
