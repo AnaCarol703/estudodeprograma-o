@@ -1,2 +1,1 @@
-# estudodeprograma-o
-pratica para o possivel futuro lux solaris
+Projeto Lux Solaris, primeiro website de Ana Carolina Carvalho Theodoro
